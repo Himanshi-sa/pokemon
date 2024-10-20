@@ -35,10 +35,10 @@ for (let pokemonobj of data) {
 //     console.log(eventvent.key);
 // });
 // Focus input
-document.addEventListener("keypress",function (event){
+document.addEventListener("keyup",function (event){
         if(event.key=== "/") {
             // don't input
-            event.preventDefault();
+            // event.preventDefault();
             inputEl.focus();
         };
      });
