@@ -50,8 +50,10 @@
     "escalade": "^3.2.0",
     "escape-html": "^1.0.3",
     "escape-string-regexp": "^1.0.5",
+    "fast-shuffle": "^6.1.0",
     "fill-range": "^7.1.1",
     "fresh": "^0.5.2",
+    "fuse.js": "^7.0.0",
     "get-port": "^4.2.0",
     "globals": "^13.24.0",
     "has-flag": "^4.0.0",
@@ -150,9 +152,8 @@
     "ws": "^7.5.10",
     "ylru": "^1.4.0"
   },
-  "devDependencies": {},
   "scripts": {
-   "start": "parcel src/index.html"
+    "start": "parcel src/index.html"
   },
   "keywords": [],
   "author": "",
